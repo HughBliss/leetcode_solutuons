@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 #[derive(PartialEq, Eq, Clone, Debug)]
 pub struct ListNode {
     pub val: i32,
@@ -32,7 +34,7 @@ fn print_list(list: &Option<Box<ListNode>>) {
 }
 
 /// Основная функция, которую тебе нужно реализовать
-pub fn reverse_list(mut head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
+pub fn reverse_list(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
     let mut prev: Option<Box<ListNode>> = None;
     let mut current = head;
     while let Some(mut node) = current.take() {

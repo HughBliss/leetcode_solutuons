@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 use std::vec;
 
 // Definition for singly-linked list.
