@@ -8,27 +8,27 @@ pub struct ListNode {
 
 impl ListNode {}
 
-pub fn remove_nth_from_end(head: Option<Box<ListNode>>, n: i32) -> Option<Box<ListNode>> {
-    // let mut dummy_head: Box<ListNode> = Box::new(ListNode { val: 0, next: head });
+// pub fn remove_nth_from_end(head: Option<Box<ListNode>>, n: i32) -> Option<Box<ListNode>> {
+// let mut dummy_head: Box<ListNode> = Box::new(ListNode { val: 0, next: head });
 
-    // let mut fast: *mut ListNode = dummy_head.as_mut();
-    // let mut slow: *mut ListNode = dummy_head.as_mut();
+// let mut fast: *mut ListNode = dummy_head.as_mut();
+// let mut slow: *mut ListNode = dummy_head.as_mut();
 
-    // let mut i = 0;
-    // while let Some(node) = (&mut *fast).next {
-    //     i += 1;
-    //     fast = node.as_ref();
-    //     if i < n {
-    //         continue;
-    //     }
-    //     slow = node.as_mut()
-    // }
-    // let node_to_remove = slow.next.take().unwrap();
-    // slow.next = node_to_remove.next;
+// let mut i = 0;
+// while let Some(node) = (&mut *fast).next {
+//     i += 1;
+//     fast = node.as_ref();
+//     if i < n {
+//         continue;
+//     }
+//     slow = node.as_mut()
+// }
+// let node_to_remove = slow.next.take().unwrap();
+// slow.next = node_to_remove.next;
 
-    // dummy_head.next
-    None
-}
+// dummy_head.next
+// None
+// }
 
 pub struct MyList {
     head: Option<Box<ListNode>>,

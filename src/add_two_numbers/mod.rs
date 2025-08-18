@@ -36,7 +36,7 @@ impl Solution {
 
         let mut addition: i32 = 0;
         let dummy_node = Box::new(ListNode::new(0));
-        while true {
+        loop {
             let (node1, node2) = match (list_1_iterator, list_2_iterator) {
                 (Some(n1), Some(n2)) => (n1, n2),
                 (None, Some(n2)) => (&dummy_node, n2),

@@ -1,5 +1,6 @@
 mod add_two_numbers;
 mod find_the_index_of_the_first_occurrence_in_a_string;
+mod longest_palindromic_substring;
 mod longest_substring_without_repeating_characters;
 mod merge_two_sorted_lists;
 mod remove_duplicates_from_sorted_array;
