@@ -1,5 +1,6 @@
 mod add_two_numbers;
 mod can_place_flowers;
+mod count_square_submatrices_with_all_ones;
 mod find_the_index_of_the_first_occurrence_in_a_string;
 mod greatest_common_divisor_of_strings;
 mod kids_with_the_greatest_number_of_candies;
@@ -12,6 +13,6 @@ mod remove_duplicates_from_sorted_array;
 mod remove_element;
 mod remove_nth_from_end;
 mod reverse_list;
+mod reverse_vowels_of_a_string;
 mod twenty_four_game;
 mod valid_parentheses;
-mod count_square_submatrices_with_all_ones;
