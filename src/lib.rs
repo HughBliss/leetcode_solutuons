@@ -14,3 +14,4 @@ mod remove_nth_from_end;
 mod reverse_list;
 mod twenty_four_game;
 mod valid_parentheses;
+mod count_square_submatrices_with_all_ones;
