@@ -11,15 +11,10 @@ impl Solution {
         for num in nums {
             if num == 0 {
                 founded += 1;
+                zeros += founded;
                 continue;
             }
-            if founded > 0 {
-                zeros += &(1..=founded).sum();
-                founded = 0;
-            }
-        }
-        if founded > 0 {
-            zeros += &(1..=founded).sum();
+            founded = 0;
         }
 
         zeros
