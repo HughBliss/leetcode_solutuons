@@ -19,5 +19,6 @@ mod remove_nth_from_end;
 mod reverse_list;
 mod reverse_vowels_of_a_string;
 mod reverse_words_in_a_string;
+mod string_compression;
 mod twenty_four_game;
 mod valid_parentheses;
