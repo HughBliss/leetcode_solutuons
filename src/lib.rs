@@ -2,6 +2,7 @@ mod add_two_numbers;
 mod can_place_flowers;
 mod count_square_submatrices_with_all_ones;
 mod count_submatrices_with_all_ones;
+mod diagonal_traverse;
 mod find_the_index_of_the_first_occurrence_in_a_string;
 mod find_the_minimum_area_to_cover_all_ones_i;
 mod greatest_common_divisor_of_strings;
